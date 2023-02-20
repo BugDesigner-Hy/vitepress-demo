@@ -2,6 +2,8 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   title: "威力软件知识库",
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  lastUpdated:true,
   themeConfig: {
     logo: "/weili-logo.png",
     siteTitle: false,
@@ -26,6 +28,8 @@ export default defineConfig({
         ],
       },
     ],
+    sidebar: {
+
+    },
   },
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
 });
