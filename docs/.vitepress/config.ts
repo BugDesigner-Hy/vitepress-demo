@@ -5,7 +5,8 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   lastUpdated:true,
   cleanUrls:true,
-  base:'/vitepress-demo/',
+  base:'/weili-wiki/',
+  outDir:'../public',
   themeConfig: {
     logo: "/weili-logo.png",
     siteTitle: false,
