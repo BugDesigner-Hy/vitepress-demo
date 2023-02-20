@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: 威力软件知识库
-  text: 软件业务知识管理平台
-  tagline: MES SPM QMS...
+  text: 软件业务知识分享平台
+  tagline: MES/SPM/QMS/SAP...
   image:
     src: /weili-logo.png
     alt: VitePress
