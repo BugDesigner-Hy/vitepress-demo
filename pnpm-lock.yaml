@@ -3,6 +3,10 @@ lockfileVersion: 5.4
 specifiers:
   vitepress: 1.0.0-alpha.46
   vue: ^3.2.47
+  yarn: ^1.22.19
+
+dependencies:
+  yarn: registry.npmmirror.com/yarn/1.22.19
 
 devDependencies:
   vitepress: registry.npmmirror.com/vitepress/1.0.0-alpha.46
@@ -975,3 +979,12 @@ packages:
       '@vue/server-renderer': registry.npmmirror.com/@vue/server-renderer/3.2.47_vue@3.2.47
       '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.47
     dev: true
+
+  registry.npmmirror.com/yarn/1.22.19:
+    resolution: {integrity: sha512-/0V5q0WbslqnwP91tirOvldvYISzaqhClxzyUKXYxs07yUILIs5jx/k6CFe8bvKSkds5w+eiOqta39Wk3WxdcQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/yarn/-/yarn-1.22.19.tgz}
+    name: yarn
+    version: 1.22.19
+    engines: {node: '>=4.0.0'}
+    hasBin: true
+    requiresBuild: true
+    dev: false
