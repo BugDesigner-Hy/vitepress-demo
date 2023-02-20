@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/department-brief
+      link: /guide/
     - theme: alt
       text: View on GitLab
       link: http://192.168.70.41:8099/service-group/weili-wiki

@@ -31,5 +31,9 @@ export default defineConfig({
     sidebar: {
 
     },
+    footer:{
+      message:'Released under the MIT License.',
+      copyright:'Copyright © 2023-present weili-soft'
+    }
   },
 });
