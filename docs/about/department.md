@@ -8,9 +8,11 @@ import {
   VPTeamMembers
 } from 'vitepress/theme'
 
+import { withBase } from 'vitepress'
+
 const members = [
   {
-    avatar: '/avatar.png',
+    avatar: withBase('/avatar.png'),
     name: '张成统',
     title: 'section chief',
     links: [
@@ -19,7 +21,7 @@ const members = [
     ]
   },
     {
-    avatar: '/avatar.png',
+    avatar: withBase('/avatar.png'),
     name: '李治',
     title: 'section chief',
     links: [
@@ -28,7 +30,7 @@ const members = [
     ]
   },
     {
-    avatar: '/avatar.png',
+    avatar: withBase('/avatar.png'),
     name: '尚烨',
     title: 'Creator',
     links: [
@@ -37,7 +39,7 @@ const members = [
     ]
   },
     {
-    avatar: '/avatar.png',
+    avatar: withBase('/avatar.png'),
     name: 'XXX',
     title: 'Creator',
     links: [
@@ -46,7 +48,7 @@ const members = [
     ]
   },
     {
-    avatar: '/avatar.png',
+    avatar: withBase('/avatar.png'),
     name: 'XXX',
     title: 'Creator',
     links: [
@@ -55,7 +57,7 @@ const members = [
     ]
   },
     {
-    avatar: '/avatar.png',
+    avatar: withBase('/avatar.png'),
     name: 'XXX',
     title: 'Creator',
     links: [
