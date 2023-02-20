@@ -10,8 +10,26 @@ import {
 
 const members = [
   {
-    avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Evan You',
+    avatar: '/avatar.png',
+    name: '张成统',
+    title: 'section chief',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  },
+    {
+    avatar: '/avatar.png',
+    name: '李治',
+    title: 'section chief',
+    links: [
+      { icon: 'github', link: 'https://github.com/yyx990803' },
+      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+    ]
+  },
+    {
+    avatar: '/avatar.png',
+    name: '尚烨',
     title: 'Creator',
     links: [
       { icon: 'github', link: 'https://github.com/yyx990803' },
@@ -19,8 +37,8 @@ const members = [
     ]
   },
     {
-    avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Evan You',
+    avatar: '/avatar.png',
+    name: 'XXX',
     title: 'Creator',
     links: [
       { icon: 'github', link: 'https://github.com/yyx990803' },
@@ -28,8 +46,8 @@ const members = [
     ]
   },
     {
-    avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Evan You',
+    avatar: '/avatar.png',
+    name: 'XXX',
     title: 'Creator',
     links: [
       { icon: 'github', link: 'https://github.com/yyx990803' },
@@ -37,26 +55,8 @@ const members = [
     ]
   },
     {
-    avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Evan You',
-    title: 'Creator',
-    links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
-    ]
-  },
-    {
-    avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Evan You',
-    title: 'Creator',
-    links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
-    ]
-  },
-    {
-    avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Evan You',
+    avatar: '/avatar.png',
+    name: 'XXX',
     title: 'Creator',
     links: [
       { icon: 'github', link: 'https://github.com/yyx990803' },
